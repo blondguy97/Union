@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+    color: $main-color;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: $main-color;
+    overflow: auto;
+    background-color: $main-bg-color;
+}
+
+input {
+    outline: none;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding-top: 100px;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+
+body {
+    font-family: 'Avenir-Regular', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+
+
+
